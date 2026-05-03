@@ -46,22 +46,21 @@ h2 {
     color: #222;
 }
 
-.hero p {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 0.5;
-    color: #555;
-}
-
 p {
     margin: 0;
     font-size: 36px;
-    font-weight: 50;
+    font-weight: 300;
     line-height: 1.28;
     color: #777;
     text-align: center;
 }
 
+.hero p {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #555;
+}
 
 .button {
     display: flex;
@@ -107,7 +106,6 @@ p {
     margin: 0 auto 70px;
 }
 
-
 footer {
     text-align: center;
     padding: 70px 20px;
@@ -115,6 +113,7 @@ footer {
 
 footer p {
     font-size: 22px;
+    line-height: 1.4;
 }
 
 footer span {
@@ -158,8 +157,9 @@ footer span {
 
     h1 {
         white-space: normal;
-        font-size: 20px;
-        letter-spacing: 6px;
+        font-size: 18px;
+        letter-spacing: 5px;
+        line-height: 1.6;
     }
 
     h2 {
@@ -169,6 +169,14 @@ footer span {
 
     p {
         font-size: 20px;
+        line-height: 1.35;
+    }
+
+    .hero p {
+        font-size: 22px;
+        line-height: 1.35;
+        max-width: 320px;
+        margin: 0 auto;
     }
 
     .button {
@@ -183,6 +191,19 @@ footer span {
     .vectors {
         width: 360px;
         max-width: 90%;
-        opacity: 0.75;
+        opacity: 1;
+        margin-bottom: 35px;
+    }
+
+    footer {
+        padding: 50px 20px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .footer-logo {
+        width: 70px;
     }
 }
